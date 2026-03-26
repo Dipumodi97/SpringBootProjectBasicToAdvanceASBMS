@@ -1,0 +1,12 @@
+package com.dipu.recommended;
+
+public class Main {
+
+	public static void main(String[] args) {
+		
+		Car car = new Car(new DieselEngine());
+		car.drive();
+		Car car1 = new Car(new PetrolEngine());
+		car1.drive();
+	}
+}

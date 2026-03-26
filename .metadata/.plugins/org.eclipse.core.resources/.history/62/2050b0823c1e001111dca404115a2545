@@ -1,0 +1,11 @@
+package com.dipu;
+
+public class Car extends Engine{
+
+	// start the Engine
+	int start =  super.start();
+	
+	if(start >=1) {
+		System.out.println("Journey Started...");
+	}
+}

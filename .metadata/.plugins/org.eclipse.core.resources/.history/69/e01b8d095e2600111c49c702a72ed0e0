@@ -1,0 +1,15 @@
+package com.dipu;
+
+public class Car extends Engine {
+
+    // IS-A Relationship
+    public void drive() {
+
+        // Start the Engine
+        int start = super.start();
+
+        if (start >= 1) {
+            System.out.println("Journey Started...");
+        }
+    }
+}

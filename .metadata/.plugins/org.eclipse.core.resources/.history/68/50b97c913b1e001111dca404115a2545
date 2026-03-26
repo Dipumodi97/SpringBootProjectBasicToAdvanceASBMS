@@ -1,0 +1,7 @@
+package com.dipu;
+
+public class Car extends Engine{
+
+	// start the Engine
+	int start =  super.start();
+}

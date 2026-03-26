@@ -1,0 +1,22 @@
+package com.dipu.recommended;
+
+public class Car {
+
+	private IEngine engine;
+	
+	public Car(IEngine engine) {
+		this.engine = engine;
+	}
+	
+	public void drive() {
+		
+		int start = engine.start();
+		
+		if(start >=1) {
+			System.out.println("Journey Started....");
+		}else {
+			System.out.println("Engine in Troubled....");
+			
+		}
+	}
+}
