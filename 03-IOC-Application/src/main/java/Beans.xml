@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+	<!--Bean Definition  Here-->
+
+	<!--<bean id="petrolEng" class="com.dipu.beans.PetrolEngine" />
+
+	<bean id="engine" class="com.dipu.beans.DieselEngine" />-->
+
+	<!--when we use  autowire via byName then it's match datatype of variable
+     name like IEngine engine in Car class .
+     So engine is a variable  to match same data-type-properties  -->
+	<!--<bean id="car" class="com.dipu.beans.Car" autowire="byName">-->
+
+<!--if we are using autowire-candidate="true" then eligible to execute the code byType-->
+	<!--<bean id="petrolEng" class="com.dipu.beans.PetrolEngine" autowire-candidate="false"/>
+
+	<bean id="engine" class="com.dipu.beans.DieselEngine" autowire-candidate="true"/>
+-->
+	<!--
+	when we use  autowire via byType then IOC will match the implementation 
+	and provide ambiguity problem then we have to resolve using 
+	autowire-candidate="true" is using for Autowiring.
+    -->
+	<!--<bean id="car" class="com.dipu.beans.Car" autowire="byType" />-->
+	
+	<!--When we are remove setter injection in Dependent class (Car) then 
+	We'll use autowire="constructor" using Constructor injection
+	-->
+	
+	<bean id="petrolEng" class="com.dipu.beans.PetrolEngine" primary="true" />
+
+	<bean id="engine" class="com.dipu.beans.DieselEngine"/>
+
+    <bean id="car" class="com.dipu.beans.Car" autowire="constructor" />
+    
+    <!--When autowire="no" then It's calling 0-param Constructor -->
+    
+    <!--<bean id="car" class="com.dipu.beans.Car" autowire="no" />-->
+
+</beans>
