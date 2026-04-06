@@ -7324,3 +7324,78 @@ This warning can be switched off on the Team > Git > Confirmations and Warnings 
 
 !ENTRY org.springframework.tooling.boot.ls 1 0 2026-04-02 23:16:47.155
 !MESSAGE Boot project ADDED: 2-Spring-Boot-Application-Gradle
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2026-04-02 23:23:51.421
+!MESSAGE Classpath changed for project: 02-IOC-Application
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2026-04-02 23:23:51.422
+!MESSAGE Classpath changed for project: 03-IOC-Application
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2026-04-02 23:23:51.422
+!MESSAGE Classpath changed for project: 04-Bean-LifeCycle-Application
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2026-04-02 23:23:51.422
+!MESSAGE Classpath changed for project: 05-Spring-Annotation-Application
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2026-04-02 23:23:51.423
+!MESSAGE Classpath changed for project: 06-Spring-Annotation-Autowire-App
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-04-02 23:23:52.978
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-04-02 23:23:52.986
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-04-02 23:23:53.971
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-04-02 23:23:53.974
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-04-02 23:23:54.175
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-04-02 23:23:54.178
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-04-02 23:23:54.353
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-04-02 23:23:54.356
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-04-02 23:23:54.484
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-04-02 23:23:54.486
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-04-02 23:23:54.629
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-04-02 23:23:54.631
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-04-02 23:24:12.995
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-04-02 23:24:12.999
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-04-02 23:24:20.185
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-04-02 23:24:20.190
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2026-04-04 08:26:30.927
+!MESSAGE Classpath changed for project: 3-Runner-App
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2026-04-04 08:26:30.928
+!MESSAGE Boot project ADDED: 3-Runner-App
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-04-04 08:26:45.070
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-04-04 08:26:45.073
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
