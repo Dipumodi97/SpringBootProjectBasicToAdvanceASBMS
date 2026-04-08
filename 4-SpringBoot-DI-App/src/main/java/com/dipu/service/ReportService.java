@@ -1,6 +1,7 @@
 package com.dipu.service;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Service;
 
 import com.dipu.dao.IReportDao;
@@ -9,8 +10,12 @@ import com.dipu.dao.ReportDao;
 @Service
 public class ReportService {
 
+	@Value("${report.type}")
+	private String type;
 
 	private IReportDao reportDao;
+	
+	
 	
 	/*
 	 * public ReportService() {
@@ -18,6 +23,7 @@ public class ReportService {
 	 */
 	//@Autowired
 	public ReportService(IReportDao reportDao) {
+		
 		System.out.println("ReportService.ReportService(ReportDao reportDao) :: Param Constructor");
 		this.reportDao = reportDao;
 	}
@@ -29,6 +35,7 @@ public class ReportService {
 	 * this.reportDao = reportDao; }
 	 */
 	public void printName(Integer userId) {
+		System.out.println("Report Type :: "+type);
 		String nameById = reportDao.getNameById(userId);
 		
 		System.out.println("ReportService.printName()" + nameById);
