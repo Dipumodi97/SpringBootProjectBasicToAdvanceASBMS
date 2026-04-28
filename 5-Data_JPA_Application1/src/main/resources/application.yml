@@ -4,13 +4,13 @@ spring:
     
     # configure Datasource Property
   datasource:
-   url: jdbc:mysql://localhost:3306/sbmsl27
+   url: jdbc:mysql://localhost:3306/sbms27dipu
    username: root
    password: Dipu@123
    driver-class-name: com.mysql.cj.jdbc.Driver 
    
   jpa:
    hibernate:
-      ddl-auto: update
+      ddl-auto: create
    show-sql: true
           

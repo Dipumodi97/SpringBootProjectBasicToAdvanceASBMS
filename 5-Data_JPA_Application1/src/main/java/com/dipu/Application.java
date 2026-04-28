@@ -23,14 +23,46 @@ public class Application {
 
 		StudentRepository studentRepository = context.getBean(StudentRepository.class);
 		
+		Student s = new Student(101,"Rahul",1000654l,"Male","Y");
+		studentRepository.save(s);
+		
+		System.out.println("Record Saved...");
+		
+		// Update the record of ActiveSwitch
+		Student student = studentRepository.findById(101).get();
+		student.setActiveSwitch("N");
+		
+		studentRepository.save(student);
+		
+		/*
+		// Update Data from DB using Update Query in HQL
+		studentRepository.insertStudent(106, "Shanu", "Female");
+		
+		*/
+		
+		/*
+		// Update Data from DB using Update Query in HQL
+		studentRepository.updateStudent(101, "Male");
+		System.out.println("Updated  Successfully  :: ");
+		
+		*/
+		
+		/*
+		// Delete Data from DB using Delete Query in HQL
+		studentRepository.deleteStudent(106);
+		System.out.println("Deleted Successfully ...");
+		
+		*/
 		
 		// using for search Data given by Example
+		/*
 		Student student = new Student();
 		student.setGender("male");
 		
 		Example<Student> students = Example.of(student);
 		List<Student> list = studentRepository.findAll(students);
 		list.forEach(System.out::println);
+		*/
 		
 		/*
 		List<Student> students = studentRepository.findAll(Sort.by("name").descending());
