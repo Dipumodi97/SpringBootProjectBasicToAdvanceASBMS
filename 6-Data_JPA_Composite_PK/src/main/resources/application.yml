@@ -1,6 +1,7 @@
 spring:
   application:
-    name: 5-Data_JPA_Application1
+    name: 6-Data_JPA_Composite_PK
+    
     
     # configure Datasource Property
   datasource:
@@ -12,5 +13,4 @@ spring:
   jpa:
    hibernate:
       ddl-auto: update
-   show-sql: true
-          
+   show-sql: true  

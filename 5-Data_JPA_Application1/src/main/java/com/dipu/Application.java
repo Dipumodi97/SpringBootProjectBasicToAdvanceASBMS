@@ -12,7 +12,9 @@ import org.springframework.data.domain.Page;
 import org.springframework.data.domain.PageRequest;
 import org.springframework.data.domain.Sort;
 
+import com.dipu.entity.Product;
 import com.dipu.entity.Student;
+import com.dipu.repository.ProductRepository;
 import com.dipu.repository.StudentRepository;
 
 @SpringBootApplication
@@ -20,7 +22,18 @@ public class Application {
 
 	public static void main(String[] args) {
 		ConfigurableApplicationContext context = SpringApplication.run(Application.class, args);
+		
+		// using Product Related Work
+		
+		ProductRepository productRepository = context.getBean(ProductRepository.class);
+		
+		Product p = new Product();
+		p.setProductName("VDI");
+		p.setProductPrice(44554.5);
+		
+		productRepository.save(p);
 
+		/*
 		StudentRepository studentRepository = context.getBean(StudentRepository.class);
 		
 		Student s = new Student(101,"Rahul",1000654l,"Male","Y");
@@ -33,6 +46,8 @@ public class Application {
 		student.setActiveSwitch("N");
 		
 		studentRepository.save(student);
+		
+		*/
 		
 		/*
 		// Update Data from DB using Update Query in HQL
