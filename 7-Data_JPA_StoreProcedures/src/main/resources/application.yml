@@ -1,18 +1,17 @@
 spring:
   application:
-    name: 6-Data_JPA_Composite_PK
+    name: 7-Data_JPA_StoreProcedures
     
-    
-    # configure Datasource Property
+   # configure Datasource Property
   datasource:
    url: jdbc:mysql://localhost:3306/sbms27dipu
    username: root
    password: Dipu@123
-   driver-class-name: com.mysql.cj.jdbc.Driver 
+   driver-class-name: com.mysql.cj.jdbc.Driver
    hikari:
-      maximum-pool-size: 20
+      maximum-pool-size: 20 
    
   jpa:
    hibernate:
       ddl-auto: update
-   show-sql: true  
+   show-sql: true    
