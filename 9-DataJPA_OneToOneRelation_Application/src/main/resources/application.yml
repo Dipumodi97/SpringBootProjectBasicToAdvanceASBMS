@@ -1,0 +1,16 @@
+spring:
+  application:
+    name: 9-DataJPA_OneToOneRelation_Application
+
+  datasource:
+   url: jdbc:mysql://localhost:3306/sbms27dipu
+   username: root
+   password: Dipu@123
+   driver-class-name: com.mysql.cj.jdbc.Driver
+   hikari:
+      maximum-pool-size: 20 
+   
+  jpa:
+   hibernate:
+      ddl-auto: update
+   show-sql: true  
