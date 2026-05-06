@@ -9060,3 +9060,639 @@ java.lang.InterruptedException
 	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:130)
 	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
 	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2026-05-06 07:25:19.914
+!MESSAGE Classpath changed for project: 10-WebMVC_Application1
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2026-05-06 07:25:21.093
+!MESSAGE Classpath changed for project: 10-WebMVC_Application1
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2026-05-06 07:25:21.100
+!MESSAGE Boot project ADDED: 10-WebMVC_Application1
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2026-05-06 07:25:21.585
+!MESSAGE Classpath changed for project: 10-WebMVC_Application1
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2026-05-06 07:25:26.554
+!MESSAGE Classpath changed for project: 10-WebMVC_Application1
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2026-05-06 07:25:38.731
+!MESSAGE Classpath changed for project: 010-WebMVC_Application1
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2026-05-06 07:25:38.732
+!MESSAGE Classpath changed for project: 10-WebMVC_Application1
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2026-05-06 07:25:38.732
+!MESSAGE Boot project REMOVED: 10-WebMVC_Application1
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2026-05-06 07:25:38.791
+!MESSAGE Cannot invoke "org.eclipse.m2e.core.project.IMavenProjectFacade.getArtifactKey()" because "facade" is null
+!STACK 0
+java.lang.NullPointerException: Cannot invoke "org.eclipse.m2e.core.project.IMavenProjectFacade.getArtifactKey()" because "facade" is null
+	at org.springframework.tooling.jdt.ls.commons.classpath.ClasspathUtil.createProjectBuild(ClasspathUtil.java:235)
+	at org.springframework.tooling.jdt.ls.commons.classpath.SendClasspathNotificationsJob.run(SendClasspathNotificationsJob.java:146)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2026-05-06 07:25:39.815
+!MESSAGE Classpath changed for project: 010-WebMVC_Application1
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2026-05-06 07:25:39.824
+!MESSAGE Boot project ADDED: 010-WebMVC_Application1
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2026-05-06 07:25:39.861
+!MESSAGE Classpath changed for project: 010-WebMVC_Application1
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2026-05-06 07:26:13.575
+!MESSAGE Classpath changed for project: 001-IOC-Application
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2026-05-06 07:26:13.575
+!MESSAGE Classpath changed for project: 01-IOC-Application
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2026-05-06 07:26:13.575
+!MESSAGE Boot project REMOVED: 01-IOC-Application
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2026-05-06 07:26:13.576
+!MESSAGE Cannot invoke "org.eclipse.m2e.core.project.IMavenProjectFacade.getArtifactKey()" because "facade" is null
+!STACK 0
+java.lang.NullPointerException: Cannot invoke "org.eclipse.m2e.core.project.IMavenProjectFacade.getArtifactKey()" because "facade" is null
+	at org.springframework.tooling.jdt.ls.commons.classpath.ClasspathUtil.createProjectBuild(ClasspathUtil.java:235)
+	at org.springframework.tooling.jdt.ls.commons.classpath.SendClasspathNotificationsJob.run(SendClasspathNotificationsJob.java:146)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-05-06 07:26:16.209
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-05-06 07:26:16.212
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2026-05-06 07:26:16.251
+!MESSAGE Classpath changed for project: 001-IOC-Application
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2026-05-06 07:26:16.251
+!MESSAGE Boot project ADDED: 001-IOC-Application
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-05-06 07:26:17.285
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-05-06 07:26:17.287
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2026-05-06 07:26:27.443
+!MESSAGE Classpath changed for project: 002-IOC-Application
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2026-05-06 07:26:27.443
+!MESSAGE Classpath changed for project: 02-IOC-Application
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2026-05-06 07:26:27.444
+!MESSAGE Cannot invoke "org.eclipse.m2e.core.project.IMavenProjectFacade.getArtifactKey()" because "facade" is null
+!STACK 0
+java.lang.NullPointerException: Cannot invoke "org.eclipse.m2e.core.project.IMavenProjectFacade.getArtifactKey()" because "facade" is null
+	at org.springframework.tooling.jdt.ls.commons.classpath.ClasspathUtil.createProjectBuild(ClasspathUtil.java:235)
+	at org.springframework.tooling.jdt.ls.commons.classpath.SendClasspathNotificationsJob.run(SendClasspathNotificationsJob.java:146)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2026-05-06 07:26:27.444
+!MESSAGE Boot project REMOVED: 02-IOC-Application
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-05-06 07:26:27.856
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-05-06 07:26:27.859
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2026-05-06 07:26:27.894
+!MESSAGE Classpath changed for project: 002-IOC-Application
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2026-05-06 07:26:27.895
+!MESSAGE Boot project ADDED: 002-IOC-Application
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-05-06 07:26:28.919
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-05-06 07:26:28.921
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2026-05-06 07:26:41.647
+!MESSAGE Classpath changed for project: 003-IOC-Application
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2026-05-06 07:26:41.647
+!MESSAGE Classpath changed for project: 03-IOC-Application
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2026-05-06 07:26:41.647
+!MESSAGE Boot project REMOVED: 03-IOC-Application
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2026-05-06 07:26:41.648
+!MESSAGE Cannot invoke "org.eclipse.m2e.core.project.IMavenProjectFacade.getArtifactKey()" because "facade" is null
+!STACK 0
+java.lang.NullPointerException: Cannot invoke "org.eclipse.m2e.core.project.IMavenProjectFacade.getArtifactKey()" because "facade" is null
+	at org.springframework.tooling.jdt.ls.commons.classpath.ClasspathUtil.createProjectBuild(ClasspathUtil.java:235)
+	at org.springframework.tooling.jdt.ls.commons.classpath.SendClasspathNotificationsJob.run(SendClasspathNotificationsJob.java:146)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-05-06 07:26:42.258
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-05-06 07:26:42.260
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2026-05-06 07:26:42.290
+!MESSAGE Classpath changed for project: 003-IOC-Application
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2026-05-06 07:26:42.291
+!MESSAGE Boot project ADDED: 003-IOC-Application
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-05-06 07:26:43.314
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-05-06 07:26:43.317
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2026-05-06 07:26:51.981
+!MESSAGE Classpath changed for project: 004-Bean-LifeCycle-Application
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2026-05-06 07:26:51.981
+!MESSAGE Classpath changed for project: 04-Bean-LifeCycle-Application
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2026-05-06 07:26:51.982
+!MESSAGE Cannot invoke "org.eclipse.m2e.core.project.IMavenProjectFacade.getArtifactKey()" because "facade" is null
+!STACK 0
+java.lang.NullPointerException: Cannot invoke "org.eclipse.m2e.core.project.IMavenProjectFacade.getArtifactKey()" because "facade" is null
+	at org.springframework.tooling.jdt.ls.commons.classpath.ClasspathUtil.createProjectBuild(ClasspathUtil.java:235)
+	at org.springframework.tooling.jdt.ls.commons.classpath.SendClasspathNotificationsJob.run(SendClasspathNotificationsJob.java:146)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2026-05-06 07:26:51.982
+!MESSAGE Boot project REMOVED: 04-Bean-LifeCycle-Application
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-05-06 07:26:52.378
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-05-06 07:26:52.380
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2026-05-06 07:26:52.386
+!MESSAGE Classpath changed for project: 004-Bean-LifeCycle-Application
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2026-05-06 07:26:52.387
+!MESSAGE Boot project ADDED: 004-Bean-LifeCycle-Application
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2026-05-06 07:26:52.415
+!MESSAGE Classpath changed for project: 004-Bean-LifeCycle-Application
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-05-06 07:26:52.567
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-05-06 07:26:52.571
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2026-05-06 07:27:04.591
+!MESSAGE Classpath changed for project: 005-Spring-Annotation-Application
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2026-05-06 07:27:04.591
+!MESSAGE Classpath changed for project: 05-Spring-Annotation-Application
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2026-05-06 07:27:04.591
+!MESSAGE Boot project REMOVED: 05-Spring-Annotation-Application
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2026-05-06 07:27:04.592
+!MESSAGE Cannot invoke "org.eclipse.m2e.core.project.IMavenProjectFacade.getArtifactKey()" because "facade" is null
+!STACK 0
+java.lang.NullPointerException: Cannot invoke "org.eclipse.m2e.core.project.IMavenProjectFacade.getArtifactKey()" because "facade" is null
+	at org.springframework.tooling.jdt.ls.commons.classpath.ClasspathUtil.createProjectBuild(ClasspathUtil.java:235)
+	at org.springframework.tooling.jdt.ls.commons.classpath.SendClasspathNotificationsJob.run(SendClasspathNotificationsJob.java:146)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-05-06 07:27:04.879
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-05-06 07:27:04.882
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2026-05-06 07:27:04.914
+!MESSAGE Classpath changed for project: 005-Spring-Annotation-Application
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2026-05-06 07:27:04.914
+!MESSAGE Boot project ADDED: 005-Spring-Annotation-Application
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-05-06 07:27:05.995
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-05-06 07:27:05.997
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2026-05-06 07:27:15.451
+!MESSAGE Classpath changed for project: 006-Spring-Annotation-Autowire-App
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2026-05-06 07:27:15.451
+!MESSAGE Classpath changed for project: 06-Spring-Annotation-Autowire-App
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2026-05-06 07:27:15.451
+!MESSAGE Cannot invoke "org.eclipse.m2e.core.project.IMavenProjectFacade.getArtifactKey()" because "facade" is null
+!STACK 0
+java.lang.NullPointerException: Cannot invoke "org.eclipse.m2e.core.project.IMavenProjectFacade.getArtifactKey()" because "facade" is null
+	at org.springframework.tooling.jdt.ls.commons.classpath.ClasspathUtil.createProjectBuild(ClasspathUtil.java:235)
+	at org.springframework.tooling.jdt.ls.commons.classpath.SendClasspathNotificationsJob.run(SendClasspathNotificationsJob.java:146)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2026-05-06 07:27:15.451
+!MESSAGE Boot project REMOVED: 06-Spring-Annotation-Autowire-App
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-05-06 07:27:15.869
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-05-06 07:27:15.871
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2026-05-06 07:27:15.900
+!MESSAGE Classpath changed for project: 006-Spring-Annotation-Autowire-App
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2026-05-06 07:27:15.900
+!MESSAGE Boot project ADDED: 006-Spring-Annotation-Autowire-App
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-05-06 07:27:16.979
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-05-06 07:27:16.980
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2026-05-06 07:27:43.829
+!MESSAGE Classpath changed for project: 01-Spring-Boot-Application
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2026-05-06 07:27:43.829
+!MESSAGE Classpath changed for project: 1-Spring-Boot-Application
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2026-05-06 07:27:43.829
+!MESSAGE Boot project REMOVED: 1-Spring-Boot-Application
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2026-05-06 07:27:43.866
+!MESSAGE Cannot invoke "org.eclipse.m2e.core.project.IMavenProjectFacade.getArtifactKey()" because "facade" is null
+!STACK 0
+java.lang.NullPointerException: Cannot invoke "org.eclipse.m2e.core.project.IMavenProjectFacade.getArtifactKey()" because "facade" is null
+	at org.springframework.tooling.jdt.ls.commons.classpath.ClasspathUtil.createProjectBuild(ClasspathUtil.java:235)
+	at org.springframework.tooling.jdt.ls.commons.classpath.SendClasspathNotificationsJob.run(SendClasspathNotificationsJob.java:146)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2026-05-06 07:27:47.298
+!MESSAGE Classpath changed for project: 01-Spring-Boot-Application
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2026-05-06 07:27:47.298
+!MESSAGE Boot project ADDED: 01-Spring-Boot-Application
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2026-05-06 07:27:59.607
+!MESSAGE Classpath changed for project: 02-Spring-Boot-Application-Gradle
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2026-05-06 07:27:59.607
+!MESSAGE Classpath changed for project: 2-Spring-Boot-Application-Gradle
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2026-05-06 07:27:59.608
+!MESSAGE Boot project REMOVED: 2-Spring-Boot-Application-Gradle
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2026-05-06 07:28:11.579
+!MESSAGE Classpath changed for project: 03-Runner-App
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2026-05-06 07:28:11.579
+!MESSAGE Classpath changed for project: 3-Runner-App
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2026-05-06 07:28:11.581
+!MESSAGE Boot project REMOVED: 3-Runner-App
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2026-05-06 07:28:11.627
+!MESSAGE Cannot invoke "org.eclipse.m2e.core.project.IMavenProjectFacade.getArtifactKey()" because "facade" is null
+!STACK 0
+java.lang.NullPointerException: Cannot invoke "org.eclipse.m2e.core.project.IMavenProjectFacade.getArtifactKey()" because "facade" is null
+	at org.springframework.tooling.jdt.ls.commons.classpath.ClasspathUtil.createProjectBuild(ClasspathUtil.java:235)
+	at org.springframework.tooling.jdt.ls.commons.classpath.SendClasspathNotificationsJob.run(SendClasspathNotificationsJob.java:146)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.buildship.core 2 4 2026-05-06 07:28:28.086
+!MESSAGE Synchronize project 02-Spring-Boot-Application-Gradle failed due to an unsupported configuration in the referenced Gradle build.
+!STACK 0
+org.eclipse.buildship.core.internal.UnsupportedConfigurationException: Project at 'D:\Project All\SBMSADipu\02-Spring-Boot-Application-Gradle' can't be named '2-Spring-Boot-Application-Gradle' because it's located directly under the workspace root. If such a project is renamed, Eclipse would move the container directory. To resolve this problem, move the project out of the workspace root or configure it to have the name '02-Spring-Boot-Application-Gradle'.
+	at org.eclipse.buildship.core.internal.workspace.DefaultWorkspaceOperations.validateProjectName(DefaultWorkspaceOperations.java:183)
+	at org.eclipse.buildship.core.internal.workspace.ProjectNameUpdater.checkProjectName(ProjectNameUpdater.java:106)
+	at org.eclipse.buildship.core.internal.workspace.ProjectNameUpdater.updateProjectName(ProjectNameUpdater.java:43)
+	at org.eclipse.buildship.core.internal.workspace.SynchronizeGradleBuildOperation.synchronizeOpenWorkspaceProject(SynchronizeGradleBuildOperation.java:159)
+	at org.eclipse.buildship.core.internal.workspace.SynchronizeGradleBuildOperation.synchronizeWorkspaceProject(SynchronizeGradleBuildOperation.java:137)
+	at org.eclipse.buildship.core.internal.workspace.SynchronizeGradleBuildOperation.synchronizeGradleProjectWithWorkspaceProject(SynchronizeGradleBuildOperation.java:127)
+	at org.eclipse.buildship.core.internal.workspace.SynchronizeGradleBuildOperation$1.run(SynchronizeGradleBuildOperation.java:85)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2448)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2468)
+	at org.eclipse.buildship.core.internal.workspace.SynchronizeGradleBuildOperation.synchronizeProjectsWithWorkspace(SynchronizeGradleBuildOperation.java:82)
+	at org.eclipse.buildship.core.internal.workspace.SynchronizeGradleBuildOperation.run(SynchronizeGradleBuildOperation.java:64)
+	at org.eclipse.buildship.core.internal.DefaultGradleBuild$SynchronizeOperation.runInToolingApi(DefaultGradleBuild.java:238)
+	at org.eclipse.buildship.core.internal.operation.DefaultToolingApiOperationManager$WorkspaceRunnableAdapter.run(DefaultToolingApiOperationManager.java:58)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2448)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2473)
+	at org.eclipse.buildship.core.internal.operation.DefaultToolingApiOperationManager.run(DefaultToolingApiOperationManager.java:39)
+	at org.eclipse.buildship.core.internal.DefaultGradleBuild$SynchronizeOperation.run(DefaultGradleBuild.java:197)
+	at org.eclipse.buildship.core.internal.DefaultGradleBuild.synchronize(DefaultGradleBuild.java:105)
+	at org.eclipse.buildship.core.internal.workspace.SynchronizationJob.runInToolingApi(SynchronizationJob.java:64)
+	at org.eclipse.buildship.core.internal.workspace.SynchronizationJob.runInToolingApi(SynchronizationJob.java:30)
+	at org.eclipse.buildship.core.internal.operation.ToolingApiJob$1.runInToolingApi(ToolingApiJob.java:54)
+	at org.eclipse.buildship.core.internal.operation.DefaultToolingApiOperationManager$WorkspaceRunnableAdapter.run(DefaultToolingApiOperationManager.java:58)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2448)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2473)
+	at org.eclipse.buildship.core.internal.operation.DefaultToolingApiOperationManager.run(DefaultToolingApiOperationManager.java:39)
+	at org.eclipse.buildship.core.internal.operation.ToolingApiJob.run(ToolingApiJob.java:65)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.buildship.core 2 4 2026-05-06 07:28:28.090
+!MESSAGE Synchronize Gradle projects with workspace failed due to an unsupported configuration in the referenced Gradle build.
+!STACK 0
+org.eclipse.buildship.core.internal.UnsupportedConfigurationException: Project at 'D:\Project All\SBMSADipu\02-Spring-Boot-Application-Gradle' can't be named '2-Spring-Boot-Application-Gradle' because it's located directly under the workspace root. If such a project is renamed, Eclipse would move the container directory. To resolve this problem, move the project out of the workspace root or configure it to have the name '02-Spring-Boot-Application-Gradle'.
+	at org.eclipse.buildship.core.internal.workspace.DefaultWorkspaceOperations.validateProjectName(DefaultWorkspaceOperations.java:183)
+	at org.eclipse.buildship.core.internal.workspace.ProjectNameUpdater.checkProjectName(ProjectNameUpdater.java:106)
+	at org.eclipse.buildship.core.internal.workspace.ProjectNameUpdater.updateProjectName(ProjectNameUpdater.java:43)
+	at org.eclipse.buildship.core.internal.workspace.SynchronizeGradleBuildOperation.synchronizeOpenWorkspaceProject(SynchronizeGradleBuildOperation.java:159)
+	at org.eclipse.buildship.core.internal.workspace.SynchronizeGradleBuildOperation.synchronizeWorkspaceProject(SynchronizeGradleBuildOperation.java:137)
+	at org.eclipse.buildship.core.internal.workspace.SynchronizeGradleBuildOperation.synchronizeGradleProjectWithWorkspaceProject(SynchronizeGradleBuildOperation.java:127)
+	at org.eclipse.buildship.core.internal.workspace.SynchronizeGradleBuildOperation$1.run(SynchronizeGradleBuildOperation.java:85)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2448)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2468)
+	at org.eclipse.buildship.core.internal.workspace.SynchronizeGradleBuildOperation.synchronizeProjectsWithWorkspace(SynchronizeGradleBuildOperation.java:82)
+	at org.eclipse.buildship.core.internal.workspace.SynchronizeGradleBuildOperation.run(SynchronizeGradleBuildOperation.java:64)
+	at org.eclipse.buildship.core.internal.DefaultGradleBuild$SynchronizeOperation.runInToolingApi(DefaultGradleBuild.java:238)
+	at org.eclipse.buildship.core.internal.operation.DefaultToolingApiOperationManager$WorkspaceRunnableAdapter.run(DefaultToolingApiOperationManager.java:58)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2448)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2473)
+	at org.eclipse.buildship.core.internal.operation.DefaultToolingApiOperationManager.run(DefaultToolingApiOperationManager.java:39)
+	at org.eclipse.buildship.core.internal.DefaultGradleBuild$SynchronizeOperation.run(DefaultGradleBuild.java:197)
+	at org.eclipse.buildship.core.internal.DefaultGradleBuild.synchronize(DefaultGradleBuild.java:105)
+	at org.eclipse.buildship.core.internal.workspace.SynchronizationJob.runInToolingApi(SynchronizationJob.java:64)
+	at org.eclipse.buildship.core.internal.workspace.SynchronizationJob.runInToolingApi(SynchronizationJob.java:30)
+	at org.eclipse.buildship.core.internal.operation.ToolingApiJob$1.runInToolingApi(ToolingApiJob.java:54)
+	at org.eclipse.buildship.core.internal.operation.DefaultToolingApiOperationManager$WorkspaceRunnableAdapter.run(DefaultToolingApiOperationManager.java:58)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2448)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2473)
+	at org.eclipse.buildship.core.internal.operation.DefaultToolingApiOperationManager.run(DefaultToolingApiOperationManager.java:39)
+	at org.eclipse.buildship.core.internal.operation.ToolingApiJob.run(ToolingApiJob.java:65)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2026-05-06 07:28:33.835
+!MESSAGE Classpath changed for project: 04-SpringBoot-DI-App
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2026-05-06 07:28:33.836
+!MESSAGE Classpath changed for project: 4-SpringBoot-DI-App
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2026-05-06 07:28:33.836
+!MESSAGE Boot project REMOVED: 4-SpringBoot-DI-App
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2026-05-06 07:28:33.872
+!MESSAGE Cannot invoke "org.eclipse.m2e.core.project.IMavenProjectFacade.getArtifactKey()" because "facade" is null
+!STACK 0
+java.lang.NullPointerException: Cannot invoke "org.eclipse.m2e.core.project.IMavenProjectFacade.getArtifactKey()" because "facade" is null
+	at org.springframework.tooling.jdt.ls.commons.classpath.ClasspathUtil.createProjectBuild(ClasspathUtil.java:235)
+	at org.springframework.tooling.jdt.ls.commons.classpath.SendClasspathNotificationsJob.run(SendClasspathNotificationsJob.java:146)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2026-05-06 07:28:35.599
+!MESSAGE Classpath changed for project: 03-Runner-App
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2026-05-06 07:28:35.600
+!MESSAGE Boot project ADDED: 03-Runner-App
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2026-05-06 07:28:36.228
+!MESSAGE Classpath changed for project: 04-SpringBoot-DI-App
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2026-05-06 07:28:36.229
+!MESSAGE Boot project ADDED: 04-SpringBoot-DI-App
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2026-05-06 07:29:00.304
+!MESSAGE Classpath changed for project: 05-Data_JPA_Application1
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2026-05-06 07:29:00.304
+!MESSAGE Classpath changed for project: 5-Data_JPA_Application1
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2026-05-06 07:29:00.305
+!MESSAGE Boot project REMOVED: 5-Data_JPA_Application1
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2026-05-06 07:29:00.337
+!MESSAGE Cannot invoke "org.eclipse.m2e.core.project.IMavenProjectFacade.getArtifactKey()" because "facade" is null
+!STACK 0
+java.lang.NullPointerException: Cannot invoke "org.eclipse.m2e.core.project.IMavenProjectFacade.getArtifactKey()" because "facade" is null
+	at org.springframework.tooling.jdt.ls.commons.classpath.ClasspathUtil.createProjectBuild(ClasspathUtil.java:235)
+	at org.springframework.tooling.jdt.ls.commons.classpath.SendClasspathNotificationsJob.run(SendClasspathNotificationsJob.java:146)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2026-05-06 07:29:01.342
+!MESSAGE Classpath changed for project: 05-Data_JPA_Application1
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2026-05-06 07:29:01.349
+!MESSAGE Boot project ADDED: 05-Data_JPA_Application1
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2026-05-06 07:29:01.376
+!MESSAGE Classpath changed for project: 05-Data_JPA_Application1
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2026-05-06 07:29:16.129
+!MESSAGE Classpath changed for project: 06-Data_JPA_Composite_PK
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2026-05-06 07:29:16.129
+!MESSAGE Classpath changed for project: 6-Data_JPA_Composite_PK
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2026-05-06 07:29:16.129
+!MESSAGE Boot project REMOVED: 6-Data_JPA_Composite_PK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2026-05-06 07:29:16.164
+!MESSAGE Cannot invoke "org.eclipse.m2e.core.project.IMavenProjectFacade.getArtifactKey()" because "facade" is null
+!STACK 0
+java.lang.NullPointerException: Cannot invoke "org.eclipse.m2e.core.project.IMavenProjectFacade.getArtifactKey()" because "facade" is null
+	at org.springframework.tooling.jdt.ls.commons.classpath.ClasspathUtil.createProjectBuild(ClasspathUtil.java:235)
+	at org.springframework.tooling.jdt.ls.commons.classpath.SendClasspathNotificationsJob.run(SendClasspathNotificationsJob.java:146)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2026-05-06 07:29:17.521
+!MESSAGE Classpath changed for project: 06-Data_JPA_Composite_PK
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2026-05-06 07:29:17.522
+!MESSAGE Boot project ADDED: 06-Data_JPA_Composite_PK
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2026-05-06 07:29:32.839
+!MESSAGE Classpath changed for project: 07-Data_JPA_StoreProcedures
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2026-05-06 07:29:32.840
+!MESSAGE Classpath changed for project: 7-Data_JPA_StoreProcedures
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2026-05-06 07:29:32.840
+!MESSAGE Boot project REMOVED: 7-Data_JPA_StoreProcedures
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2026-05-06 07:29:32.872
+!MESSAGE Cannot invoke "org.eclipse.m2e.core.project.IMavenProjectFacade.getArtifactKey()" because "facade" is null
+!STACK 0
+java.lang.NullPointerException: Cannot invoke "org.eclipse.m2e.core.project.IMavenProjectFacade.getArtifactKey()" because "facade" is null
+	at org.springframework.tooling.jdt.ls.commons.classpath.ClasspathUtil.createProjectBuild(ClasspathUtil.java:235)
+	at org.springframework.tooling.jdt.ls.commons.classpath.SendClasspathNotificationsJob.run(SendClasspathNotificationsJob.java:146)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2026-05-06 07:29:33.743
+!MESSAGE Classpath changed for project: 07-Data_JPA_StoreProcedures
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2026-05-06 07:29:33.743
+!MESSAGE Boot project ADDED: 07-Data_JPA_StoreProcedures
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2026-05-06 07:29:46.934
+!MESSAGE Classpath changed for project: 08-DataJPA_OneToManyRelation_Application
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2026-05-06 07:29:46.935
+!MESSAGE Classpath changed for project: 8-DataJPA_OneToManyRelation_Application
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2026-05-06 07:29:46.935
+!MESSAGE Boot project REMOVED: 8-DataJPA_OneToManyRelation_Application
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2026-05-06 07:29:46.970
+!MESSAGE Cannot invoke "org.eclipse.m2e.core.project.IMavenProjectFacade.getArtifactKey()" because "facade" is null
+!STACK 0
+java.lang.NullPointerException: Cannot invoke "org.eclipse.m2e.core.project.IMavenProjectFacade.getArtifactKey()" because "facade" is null
+	at org.springframework.tooling.jdt.ls.commons.classpath.ClasspathUtil.createProjectBuild(ClasspathUtil.java:235)
+	at org.springframework.tooling.jdt.ls.commons.classpath.SendClasspathNotificationsJob.run(SendClasspathNotificationsJob.java:146)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2026-05-06 07:29:47.833
+!MESSAGE Classpath changed for project: 08-DataJPA_OneToManyRelation_Application
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2026-05-06 07:29:47.834
+!MESSAGE Boot project ADDED: 08-DataJPA_OneToManyRelation_Application
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2026-05-06 07:29:57.768
+!MESSAGE Classpath changed for project: 09-DataJPA_OneToOneRelation_Application
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2026-05-06 07:29:57.768
+!MESSAGE Classpath changed for project: 9-DataJPA_OneToOneRelation_Application
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2026-05-06 07:29:57.769
+!MESSAGE Boot project REMOVED: 9-DataJPA_OneToOneRelation_Application
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2026-05-06 07:29:57.818
+!MESSAGE Cannot invoke "org.eclipse.m2e.core.project.IMavenProjectFacade.getArtifactKey()" because "facade" is null
+!STACK 0
+java.lang.NullPointerException: Cannot invoke "org.eclipse.m2e.core.project.IMavenProjectFacade.getArtifactKey()" because "facade" is null
+	at org.springframework.tooling.jdt.ls.commons.classpath.ClasspathUtil.createProjectBuild(ClasspathUtil.java:235)
+	at org.springframework.tooling.jdt.ls.commons.classpath.SendClasspathNotificationsJob.run(SendClasspathNotificationsJob.java:146)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2026-05-06 07:29:57.820
+!MESSAGE Failed to refresh Code Minings for editor.
+!STACK 1
+Java Model Exception: Error in Java Model (code 969): 9-DataJPA_OneToOneRelation_Application does not exist
+	at org.eclipse.jdt.internal.core.JavaElement.newNotPresentException(JavaElement.java:562)
+	at org.eclipse.jdt.internal.core.JavaModelManager.getPerProjectInfoCheckExistence(JavaModelManager.java:2631)
+	at org.eclipse.jdt.internal.core.JavaProject.getPerProjectInfo(JavaProject.java:2361)
+	at org.eclipse.jdt.internal.core.JavaProject.getRawClasspath(JavaProject.java:2404)
+	at org.springframework.tooling.ls.eclipse.commons.STS4LanguageClientImpl.lambda$9(STS4LanguageClientImpl.java:429)
+	at org.springframework.tooling.jdt.ls.commons.classpath.ReusableClasspathListenerHandler$CallbackJob.lambda$0(ReusableClasspathListenerHandler.java:76)
+	at java.base/java.lang.Iterable.forEach(Iterable.java:75)
+	at org.springframework.tooling.jdt.ls.commons.classpath.ReusableClasspathListenerHandler$CallbackJob.run(ReusableClasspathListenerHandler.java:76)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.jdt.core 4 969 2026-05-06 07:29:57.824
+!MESSAGE 9-DataJPA_OneToOneRelation_Application does not exist
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2026-05-06 07:29:57.824
+!MESSAGE Failed to refresh Code Minings for editor.
+!STACK 1
+Java Model Exception: Error in Java Model (code 969): 9-DataJPA_OneToOneRelation_Application does not exist
+	at org.eclipse.jdt.internal.core.JavaElement.newNotPresentException(JavaElement.java:562)
+	at org.eclipse.jdt.internal.core.JavaModelManager.getPerProjectInfoCheckExistence(JavaModelManager.java:2631)
+	at org.eclipse.jdt.internal.core.JavaProject.getPerProjectInfo(JavaProject.java:2361)
+	at org.eclipse.jdt.internal.core.JavaProject.getRawClasspath(JavaProject.java:2404)
+	at org.springframework.tooling.ls.eclipse.commons.STS4LanguageClientImpl.lambda$9(STS4LanguageClientImpl.java:429)
+	at org.springframework.tooling.jdt.ls.commons.classpath.ReusableClasspathListenerHandler$CallbackJob.lambda$0(ReusableClasspathListenerHandler.java:76)
+	at java.base/java.lang.Iterable.forEach(Iterable.java:75)
+	at org.springframework.tooling.jdt.ls.commons.classpath.ReusableClasspathListenerHandler$CallbackJob.run(ReusableClasspathListenerHandler.java:76)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.jdt.core 4 969 2026-05-06 07:29:57.824
+!MESSAGE 9-DataJPA_OneToOneRelation_Application does not exist
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2026-05-06 07:29:57.824
+!MESSAGE Failed to refresh Code Minings for editor.
+!STACK 1
+Java Model Exception: Error in Java Model (code 969): 9-DataJPA_OneToOneRelation_Application does not exist
+	at org.eclipse.jdt.internal.core.JavaElement.newNotPresentException(JavaElement.java:562)
+	at org.eclipse.jdt.internal.core.JavaModelManager.getPerProjectInfoCheckExistence(JavaModelManager.java:2631)
+	at org.eclipse.jdt.internal.core.JavaProject.getPerProjectInfo(JavaProject.java:2361)
+	at org.eclipse.jdt.internal.core.JavaProject.getRawClasspath(JavaProject.java:2404)
+	at org.springframework.tooling.ls.eclipse.commons.STS4LanguageClientImpl.lambda$9(STS4LanguageClientImpl.java:429)
+	at org.springframework.tooling.jdt.ls.commons.classpath.ReusableClasspathListenerHandler$CallbackJob.lambda$0(ReusableClasspathListenerHandler.java:76)
+	at java.base/java.lang.Iterable.forEach(Iterable.java:75)
+	at org.springframework.tooling.jdt.ls.commons.classpath.ReusableClasspathListenerHandler$CallbackJob.run(ReusableClasspathListenerHandler.java:76)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.jdt.core 4 969 2026-05-06 07:29:57.824
+!MESSAGE 9-DataJPA_OneToOneRelation_Application does not exist
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2026-05-06 07:29:57.825
+!MESSAGE Failed to refresh Code Minings for editor.
+!STACK 1
+Java Model Exception: Error in Java Model (code 969): 9-DataJPA_OneToOneRelation_Application does not exist
+	at org.eclipse.jdt.internal.core.JavaElement.newNotPresentException(JavaElement.java:562)
+	at org.eclipse.jdt.internal.core.JavaModelManager.getPerProjectInfoCheckExistence(JavaModelManager.java:2631)
+	at org.eclipse.jdt.internal.core.JavaProject.getPerProjectInfo(JavaProject.java:2361)
+	at org.eclipse.jdt.internal.core.JavaProject.getRawClasspath(JavaProject.java:2404)
+	at org.springframework.tooling.ls.eclipse.commons.STS4LanguageClientImpl.lambda$9(STS4LanguageClientImpl.java:429)
+	at org.springframework.tooling.jdt.ls.commons.classpath.ReusableClasspathListenerHandler$CallbackJob.lambda$0(ReusableClasspathListenerHandler.java:76)
+	at java.base/java.lang.Iterable.forEach(Iterable.java:75)
+	at org.springframework.tooling.jdt.ls.commons.classpath.ReusableClasspathListenerHandler$CallbackJob.run(ReusableClasspathListenerHandler.java:76)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.jdt.core 4 969 2026-05-06 07:29:57.825
+!MESSAGE 9-DataJPA_OneToOneRelation_Application does not exist
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2026-05-06 07:29:57.825
+!MESSAGE Failed to refresh Code Minings for editor.
+!STACK 1
+Java Model Exception: Error in Java Model (code 969): 9-DataJPA_OneToOneRelation_Application does not exist
+	at org.eclipse.jdt.internal.core.JavaElement.newNotPresentException(JavaElement.java:562)
+	at org.eclipse.jdt.internal.core.JavaModelManager.getPerProjectInfoCheckExistence(JavaModelManager.java:2631)
+	at org.eclipse.jdt.internal.core.JavaProject.getPerProjectInfo(JavaProject.java:2361)
+	at org.eclipse.jdt.internal.core.JavaProject.getRawClasspath(JavaProject.java:2404)
+	at org.springframework.tooling.ls.eclipse.commons.STS4LanguageClientImpl.lambda$9(STS4LanguageClientImpl.java:429)
+	at org.springframework.tooling.jdt.ls.commons.classpath.ReusableClasspathListenerHandler$CallbackJob.lambda$0(ReusableClasspathListenerHandler.java:76)
+	at java.base/java.lang.Iterable.forEach(Iterable.java:75)
+	at org.springframework.tooling.jdt.ls.commons.classpath.ReusableClasspathListenerHandler$CallbackJob.run(ReusableClasspathListenerHandler.java:76)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.jdt.core 4 969 2026-05-06 07:29:57.825
+!MESSAGE 9-DataJPA_OneToOneRelation_Application does not exist
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2026-05-06 07:29:57.825
+!MESSAGE Failed to refresh Code Minings for editor.
+!STACK 1
+Java Model Exception: Error in Java Model (code 969): 9-DataJPA_OneToOneRelation_Application does not exist
+	at org.eclipse.jdt.internal.core.JavaElement.newNotPresentException(JavaElement.java:562)
+	at org.eclipse.jdt.internal.core.JavaModelManager.getPerProjectInfoCheckExistence(JavaModelManager.java:2631)
+	at org.eclipse.jdt.internal.core.JavaProject.getPerProjectInfo(JavaProject.java:2361)
+	at org.eclipse.jdt.internal.core.JavaProject.getRawClasspath(JavaProject.java:2404)
+	at org.springframework.tooling.ls.eclipse.commons.STS4LanguageClientImpl.lambda$9(STS4LanguageClientImpl.java:429)
+	at org.springframework.tooling.jdt.ls.commons.classpath.ReusableClasspathListenerHandler$CallbackJob.lambda$0(ReusableClasspathListenerHandler.java:76)
+	at java.base/java.lang.Iterable.forEach(Iterable.java:75)
+	at org.springframework.tooling.jdt.ls.commons.classpath.ReusableClasspathListenerHandler$CallbackJob.run(ReusableClasspathListenerHandler.java:76)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.jdt.core 4 969 2026-05-06 07:29:57.825
+!MESSAGE 9-DataJPA_OneToOneRelation_Application does not exist
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2026-05-06 07:29:58.951
+!MESSAGE Classpath changed for project: 09-DataJPA_OneToOneRelation_Application
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2026-05-06 07:29:58.952
+!MESSAGE Boot project ADDED: 09-DataJPA_OneToOneRelation_Application
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2026-05-06 07:30:07.850
+!MESSAGE Classpath changed for project: 010-WebMVC_Application1
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2026-05-06 07:30:07.851
+!MESSAGE Boot project REMOVED: 010-WebMVC_Application1
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2026-05-06 07:30:07.851
+!MESSAGE Classpath changed for project: 10-WebMVC_Application1
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2026-05-06 07:30:07.892
+!MESSAGE Cannot invoke "org.eclipse.m2e.core.project.IMavenProjectFacade.getArtifactKey()" because "facade" is null
+!STACK 0
+java.lang.NullPointerException: Cannot invoke "org.eclipse.m2e.core.project.IMavenProjectFacade.getArtifactKey()" because "facade" is null
+	at org.springframework.tooling.jdt.ls.commons.classpath.ClasspathUtil.createProjectBuild(ClasspathUtil.java:235)
+	at org.springframework.tooling.jdt.ls.commons.classpath.SendClasspathNotificationsJob.run(SendClasspathNotificationsJob.java:146)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2026-05-06 07:30:08.662
+!MESSAGE Classpath changed for project: 10-WebMVC_Application1
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2026-05-06 07:30:08.670
+!MESSAGE Boot project ADDED: 10-WebMVC_Application1
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2026-05-06 07:30:08.694
+!MESSAGE Classpath changed for project: 10-WebMVC_Application1
