@@ -13227,3 +13227,30 @@ Caused by: org.apache.maven.model.building.ModelBuildingException: 1 problem was
 
 !ENTRY org.springframework.tooling.boot.ls 1 0 2026-05-22 23:02:06.909
 !MESSAGE Classpath changed for project: 13-WebMVC_StudentRegistrationApplication
+
+!ENTRY org.eclipse.wst.common.project.facet.core 4 0 2026-05-24 20:24:52.626
+!MESSAGE Project facet wst.jsdt.web has not been defined. It is used in plugin org.eclipse.jst.server.core.
+
+!ENTRY org.eclipse.wst.common.project.facet.core 4 0 2026-05-24 20:24:52.627
+!MESSAGE Project facet wst.jsdt.web has not been defined. It is used in plugin org.eclipse.jst.server.preview.adapter.
+
+!ENTRY org.eclipse.wst.common.project.facet.core 4 0 2026-05-24 20:24:52.627
+!MESSAGE Project facet wst.jsdt.web has not been defined. It is used in plugin org.eclipse.jst.server.tomcat.core.
+
+!ENTRY org.eclipse.wst.common.project.facet.core 4 0 2026-05-24 20:24:52.628
+!MESSAGE Project facet wst.jsdt.web has not been defined. It is used in plugin org.eclipse.wst.server.http.core.
+
+!ENTRY org.eclipse.wst.common.project.facet.core 4 0 2026-05-24 20:24:52.628
+!MESSAGE Project facet wst.jsdt.web has not been defined. It is used in plugin org.eclipse.wst.server.preview.adapter.
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2026-05-24 20:24:52.784
+!MESSAGE Classpath changed for project: 14-WebMVC_ThymeleafApplication
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2026-05-24 20:24:52.785
+!MESSAGE Boot project ADDED: 14-WebMVC_ThymeleafApplication
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2026-05-24 20:24:53.972
+!MESSAGE Classpath changed for project: 14-WebMVC_ThymeleafApplication
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2026-05-24 20:24:54.999
+!MESSAGE Classpath changed for project: 14-WebMVC_ThymeleafApplication
