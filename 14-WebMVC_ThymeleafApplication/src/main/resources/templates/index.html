@@ -9,19 +9,25 @@
 
 <body>
 	<p th:text= ${msg} />
-	<form th:action="/product" th:object="${product}" method="POST">
+	<form th:action="@{/product}" th:object="${product}" method="POST">
 		<table>
 			<tr>
 				<td>Product ID</td>
 				<td><input type="text" th:field="*{productId}" /> </td>
+				<td th:if="${#fields.hasErrors('productId')}" th:errors="*{productId}">
+					Id is Required</td>
 			</tr>
 			<tr>
 				<td>Product Name</td>
 				<td><input type="text" th:field="*{productName}" /></td>
+				<td th:if="${#fields.hasErrors('productName')}" th:errors="*{productName}">
+									ProductName is Required</td>
 			</tr>
 			<tr>
 				<td>Product Price</td>
 				<td><input type="text" th:field="*{price}" /></td>
+				<td th:if="${#fields.hasErrors('price')}" th:errors="*{price}">
+									ProductPrice is Required</td>
 			</tr>
 			<tr>
 				<td></td>

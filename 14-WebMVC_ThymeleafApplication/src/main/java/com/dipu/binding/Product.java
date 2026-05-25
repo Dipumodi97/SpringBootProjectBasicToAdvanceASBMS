@@ -1,10 +1,18 @@
 package com.dipu.binding;
 
+import jakarta.validation.constraints.NotNull;
+import jakarta.validation.constraints.Size;
+
 public class Product {
 
+	@NotNull(message = "ID is Required")
 	private Integer productId;
+	@NotNull(message = "Name is Required")
+	@Size(min=3, max = 8)
 	private String productName;
+	@NotNull(message = "Price is Required")
 	private Double price;
+	
 	public Integer getProductId() {
 		return productId;
 	}
