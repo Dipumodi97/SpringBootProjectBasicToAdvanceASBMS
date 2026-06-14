@@ -3,14 +3,18 @@ spring:
     name: 5-Data_JPA_Application1
     
     # configure Datasource Property
+  # datasource main purpose to create the connection pool
   datasource:
    url: jdbc:mysql://localhost:3306/sbms27dipu
    username: root
    password: Dipu@123
    driver-class-name: com.mysql.cj.jdbc.Driver 
-   
+  
+  # JPA will create the table(if not write then DB will not be created) 
+  # using ddl-auto to create the table and insert the record
   jpa:
    hibernate:
       ddl-auto: update
+  #It'll print query on the console    
    show-sql: true
           

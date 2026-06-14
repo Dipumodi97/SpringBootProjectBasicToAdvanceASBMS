@@ -62,10 +62,16 @@ public class Application {
 		
 		*/
 		
+		            // Step-3
 		/*
 		// Delete Data from DB using Delete Query in HQL
+		 * 
+		 * if(studentRepository.existById(106){
+		 
 		studentRepository.deleteStudent(106);
 		System.out.println("Deleted Successfully ...");
+		}else{
+		  System.out.println("No Data Available ...");
 		
 		*/
 		
@@ -110,14 +116,18 @@ public class Application {
 		
 		
 
+		       // Step-2
 		/*
 		 Student student = new Student(); 
-		 student.setId(106); student.setName("Radha");
-		  student.setGender("Female"); student.setRank(5362l);
+		 student.setId(106); 
+		 student.setName("Radha");
+		 student.setGender("Female"); 
+		 student.setRank(5362l);
 		 
 		 studentRepository.save(student);
+		 System.out.println("record Inserted ");
 		 
-
+		 // I want to retrieve a record then using findById(ID id) method
 		Optional<Student> optional = studentRepository.findById(103);
 
 		if (optional.isPresent()) {
@@ -132,6 +142,7 @@ public class Application {
 		// another way
 		findAll.forEach(s -> System.out.println(s));
 
+         // Step -1 (HikariDatasource internally working)
 		// Data JPA will implement implementation class
 		// System.out.println(studentRepository.getClass().getName());
 		 
